@@ -1,0 +1,264 @@
+{
+  "countries":[
+    {
+      "id": "c1",
+      "name": "United Kingdom"
+    },
+    {
+      "id": "c2",
+      "name": "United States"
+    },
+    {
+      "id": "c3",
+      "name": "Russia"
+    },
+    {
+      "id": "c4",
+      "name": "Singapore"
+    },
+    {
+      "id": "c5",
+      "name": "Japan"
+    },
+    {
+      "id": "c6",
+      "name": "Thailand"
+    },
+    {
+      "id": "c7",
+      "name": "Germany"
+    },
+    {
+      "id": "c8",
+      "name": "New Zealand"
+    }
+  ],
+  "companies": [
+    {
+      "id": "f1",
+      "name": "Scoot",
+      "positions": ["Senior Software Engineer"],
+      "countryId": "c1",
+      "logo": "@/assets/logos/scoot.png"
+    },
+    {
+      "id": "f2",
+      "name": "Blogr",
+      "positions": ["Haskell and PureScript Dev"],
+      "countryId": "c2",
+      "logo": "@/assets/logos/scoot.png"
+    },
+    {
+      "id": "f3",
+      "name": "Vector",
+      "positions": ["Midlevel Back End Engineer"],
+      "countryId": "c3",
+      "logo": "@/assets/logos/scoot.png"
+    },
+    {
+      "id": "f4",
+      "name": "Office Lite",
+      "positions": ["Senior Application Engineer"],
+      "countryId": "c5",
+      "logo": "@/assets/logos/scoot.png"
+    },
+    {
+      "id": "f5",
+      "name": "Pod",
+      "positions": ["Remote DevOps Engineer"],
+      "countryId": "c6",
+      "logo": "@/assets/logos/scoot.png"
+    },
+    {
+      "id": "f6",
+      "name": "Creative",
+      "positions": ["Desktop Support Manager"],
+      "countryId": "c7",
+      "logo": "@/assets/logos/scoot.png"
+    },
+    {
+      "id": "f7",
+      "name": "Pomodoro",
+      "positions": ["iOS Engineer"],
+      "countryId": "c2",
+      "logo": "@/assets/logos/scoot.png"
+    },
+    {
+      "id": "f8",
+      "name": "Maker",
+      "positions": ["Senior EJB Developer"],
+      "countryId": "c1",
+      "logo": "@/assets/logos/scoot.png"
+    },
+    {
+      "id": "f9",
+      "name": "Coffeeroasters",
+      "positions": ["Senior Frontend Developer"],
+      "countryId": "c4",
+      "logo": "@/assets/logos/scoot.png"
+    },
+    {
+      "id": "f10",
+      "name": "Mastercraft",
+      "positions": ["App & Website Designer"],
+      "countryId": "c2",
+      "logo": "@/assets/logos/scoot.png"
+    },
+    {
+      "id": "f11",
+      "name": "Crowdfund",
+      "positions": ["Fullstack Developer"],
+      "countryId": "c8",
+      "logo": "@/assets/logos/scoot.png"
+    },
+    {
+      "id": "f12",
+      "name": "Typemaster",
+      "positionId": ["Technical Lead Engineer"],
+      "countryId": "c1",
+      "logo": "@/assets/logos/scoot.png"
+    }
+  ],
+  
+  "positions": [
+    {
+      "posId": "p1",
+      "name": "Scoot",
+      "companyId": "f1",
+      "position": "Senior Software Engineer",
+      "publishedAt": "5h ago",
+      "workSchedule": "Full Time",
+      "countryId": "c1",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.",
+      "requirements": {
+        "desc":
+        "Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.",
+     
+        "list": ["Morbi interdum mollis sapien. Sed","Phasellus lacinia magna a ullamcorper laoreet, lectus arcu pulvinar risus", "Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.", "Morbi interdum mollis sapien. Sed"]
+      },
+      "willDo": {
+        "desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna."
+      }
+    },
+    {
+      "posId": "p2",
+      "name": "Blogr",
+      "companyId": "f2",
+      "position": "Haskell and PureScript Dev",
+      "publishedAt": "5h ago",
+      "workSchedule": "Full Time",
+      "countryId": "c2",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.",
+      "requirements": {
+        "desc":
+        "Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.",
+     
+        "list": ["Morbi interdum mollis sapien. Sed","Phasellus lacinia magna a ullamcorper laoreet, lectus arcu pulvinar risus", "Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.", "Morbi interdum mollis sapien. Sed"]
+      },
+      "willDo": {
+        "desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna."
+      }
+    },
+    {
+      "posId": "p3",
+      "name": "Vector",
+      "companyId": "f3",
+      "position": "Midlevel Back End Engineer",
+      "publishedAt": "5h ago",
+      "workSchedule": "Full Time",
+      "countryId": "c3",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.",
+      "requirements": {
+        "desc":
+        "Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.",
+     
+        "list": ["Morbi interdum mollis sapien. Sed","Phasellus lacinia magna a ullamcorper laoreet, lectus arcu pulvinar risus", "Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.", "Morbi interdum mollis sapien. Sed"]
+      },
+      "willDo": {
+        "desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna."
+      }
+    },
+    {
+      "posId": "p4",
+      "name": "Office Lite",
+      "companyId": "f4",
+      "position": "Senior Application Engineer",
+      "publishedAt": "5h ago",
+      "workSchedule": "Full Time",
+      "countryId": "c5"
+    },
+    {
+      "posId": "p5",
+      "name": "Pod",
+      "companyId": "f5",
+      "position": "Remote DevOps Engineer",
+      "publishedAt": "5h ago",
+      "workSchedule": "Full Time",
+      "countryId": "c6"
+    },
+    {
+      "posId": "p6",
+      "name": "Creative",
+      "companyId": "f6",
+      "position": "Desktop Support Manager",
+      "publishedAt": "5h ago",
+      "workSchedule": "Full Time",
+      "countryId": "c7"
+    },
+    {
+      "posId": "p7",
+      "name": "Pomodoro",
+      "companyId": "f7",
+      "position": "iOS Engineer",
+      "publishedAt": "5h ago",
+      "workSchedule": "Full Time",
+      "countryId": "c2"
+    },
+    {
+      "posId": "p8",
+      "name": "Maker",
+      "companyId": "f8",
+      "position": "Senior EJB Developer",
+      "publishedAt": "5h ago",
+      "workSchedule": "Full Time",
+      "countryId": "c1"
+    },
+    {
+      "posId": "p9",
+      "name": "Coffeeroasters",
+      "companyId": "f9",
+      "position": "Senior Frontend Developer",
+      "publishedAt": "5h ago",
+      "workSchedule": "Full Time",
+      "countryId": "c4"
+    },
+    {
+      "posId": "p10",
+      "name": "Mastercraft",
+      "companyId": "f10",
+      "position": "App & Website Designer",
+      "publishedAt": "5h ago",
+      "workSchedule": "Full Time",
+      "countryId": "c2"
+    },
+    {
+      "posId": "p11",
+      "name": "Crowdfund",
+      "companyId": "f11",
+      "position": "Fullstack Developer",
+      "publishedAt": "5h ago",
+      "workSchedule": "Full Time",
+      "countryId": "c8"
+    },
+    {
+      "posId": "p12",
+      "name": "Typemaster",
+      "companyId": "f12",
+      "position": "Technical Lead Engineer",
+      "publishedAt": "5h ago",
+      "workSchedule": "Full Time",
+      "countryId": "c1"
+    }
+  ]
+
+}

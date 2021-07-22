@@ -1,30 +1,49 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view />
+  <app-layout>
+    <router-view />
+  </app-layout>
 </template>
+<script>
+import AppLayout from "./layout/AppLayout.vue";
+export default {
+  components: { AppLayout },
+};
+</script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+body {
+  height: 100%;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
-#nav {
-  padding: 30px;
+:root.dark-theme {
+  --background-primary: #121721;
+  --background-secondary: #19202d;
+  --text-color: #ffffff;
+  --violet: #5964e0;
+  --light-violet: #939bf4;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+/* Define styles for the root window with dark - mode preference */
+:root {
+  --background-primary: #f4f6f8;
+  --background-secondary: #ffffff;
+  --text-color: #19202d;
+  --grey: #9daec2;
+  --dark-grey: #6e8098;
+}
+img {
+  width: 100%;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (max-width: 768px) {
+    max-width: 689px;
   }
 }
 </style>
